@@ -34,15 +34,65 @@
                                     <segue destination="lrh-NB-3X5" kind="show" identifier="segue1" id="9PF-YH-h7Z"/>
                                 </connections>
                             </button>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RfA-TF-D8z">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="300"/>
+                                <color key="backgroundColor" systemColor="systemOrangeColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="300" id="4Hq-ef-Elt"/>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="4Hq-ef-Elt"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=compact">
+                                    <mask key="constraints">
+                                        <include reference="4Hq-ef-Elt"/>
+                                    </mask>
+                                </variation>
+                            </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
+                            <constraint firstItem="RfA-TF-D8z" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="1xH-Nj-NrD"/>
                             <constraint firstItem="NyN-uN-QWW" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="7My-gj-VuZ"/>
+                            <constraint firstItem="RfA-TF-D8z" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="Abl-Un-Nde"/>
                             <constraint firstItem="CeP-VG-ZXW" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="Gwk-HD-ris"/>
+                            <constraint firstAttribute="bottom" secondItem="RfA-TF-D8z" secondAttribute="bottom" id="TLa-Ry-gcc"/>
                             <constraint firstItem="NyN-uN-QWW" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="218" id="ZSC-Oj-bsg"/>
+                            <constraint firstAttribute="trailing" secondItem="RfA-TF-D8z" secondAttribute="trailing" id="ada-qQ-aLP"/>
+                            <constraint firstItem="RfA-TF-D8z" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="bmK-kL-DqX"/>
                             <constraint firstItem="CeP-VG-ZXW" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="hAs-H0-aV7"/>
+                            <constraint firstItem="RfA-TF-D8z" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="ncS-WM-6Uh"/>
+                            <constraint firstAttribute="trailing" secondItem="RfA-TF-D8z" secondAttribute="trailing" id="vpw-M9-3IE"/>
                         </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="1xH-Nj-NrD"/>
+                                <exclude reference="Abl-Un-Nde"/>
+                                <exclude reference="TLa-Ry-gcc"/>
+                                <exclude reference="ada-qQ-aLP"/>
+                                <exclude reference="bmK-kL-DqX"/>
+                                <exclude reference="ncS-WM-6Uh"/>
+                                <exclude reference="vpw-M9-3IE"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=compact">
+                            <mask key="constraints">
+                                <include reference="Abl-Un-Nde"/>
+                                <include reference="TLa-Ry-gcc"/>
+                                <include reference="ncS-WM-6Uh"/>
+                                <include reference="vpw-M9-3IE"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=compact">
+                            <mask key="constraints">
+                                <include reference="1xH-Nj-NrD"/>
+                                <include reference="ada-qQ-aLP"/>
+                                <include reference="bmK-kL-DqX"/>
+                            </mask>
+                        </variation>
                     </view>
                     <connections>
                         <outlet property="titleLabel" destination="NyN-uN-QWW" id="O9D-QX-Vtm"/>
@@ -50,7 +100,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="20" y="77"/>
+            <point key="canvasLocation" x="18.75" y="75.362318840579718"/>
         </scene>
         <!--Sec View Controller-->
         <scene sceneID="PbK-rN-EIb">
@@ -82,6 +132,9 @@
     <resources>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemOrangeColor">
+            <color red="1" green="0.58431372549019611" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>

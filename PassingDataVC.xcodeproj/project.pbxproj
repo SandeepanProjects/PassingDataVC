@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1800B43229321BBA0026690A /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1800B43029321BBA0026690A /* NetworkManager.swift */; };
+		1800B43329321BBA0026690A /* DatabaseHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1800B43129321BBA0026690A /* DatabaseHandler.swift */; };
+		1800B43529321BC30026690A /* CommentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1800B43429321BC30026690A /* CommentViewModel.swift */; };
+		1800B43729321BCC0026690A /* CommentViewService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1800B43629321BCC0026690A /* CommentViewService.swift */; };
 		1877C703292F73E600706CBA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1877C702292F73E600706CBA /* AppDelegate.swift */; };
 		1877C705292F73E600706CBA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1877C704292F73E600706CBA /* SceneDelegate.swift */; };
 		1877C707292F73E600706CBA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1877C706292F73E600706CBA /* ViewController.swift */; };
@@ -36,6 +40,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1800B43029321BBA0026690A /* NetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		1800B43129321BBA0026690A /* DatabaseHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatabaseHandler.swift; sourceTree = "<group>"; };
+		1800B43429321BC30026690A /* CommentViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommentViewModel.swift; sourceTree = "<group>"; };
+		1800B43629321BCC0026690A /* CommentViewService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommentViewService.swift; sourceTree = "<group>"; };
 		1877C6FF292F73E600706CBA /* PassingDataVC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PassingDataVC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1877C702292F73E600706CBA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1877C704292F73E600706CBA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -104,6 +112,10 @@
 				1877C702292F73E600706CBA /* AppDelegate.swift */,
 				1877C704292F73E600706CBA /* SceneDelegate.swift */,
 				1877C706292F73E600706CBA /* ViewController.swift */,
+				1800B43129321BBA0026690A /* DatabaseHandler.swift */,
+				1800B43429321BC30026690A /* CommentViewModel.swift */,
+				1800B43629321BCC0026690A /* CommentViewService.swift */,
+				1800B43029321BBA0026690A /* NetworkManager.swift */,
 				1877C708292F73E600706CBA /* Main.storyboard */,
 				1877C70B292F73E800706CBA /* Assets.xcassets */,
 				1877C70D292F73E800706CBA /* LaunchScreen.storyboard */,
@@ -263,7 +275,11 @@
 			files = (
 				1877C733292F740800706CBA /* SecViewController.swift in Sources */,
 				1877C707292F73E600706CBA /* ViewController.swift in Sources */,
+				1800B43729321BCC0026690A /* CommentViewService.swift in Sources */,
+				1800B43229321BBA0026690A /* NetworkManager.swift in Sources */,
+				1800B43329321BBA0026690A /* DatabaseHandler.swift in Sources */,
 				1877C703292F73E600706CBA /* AppDelegate.swift in Sources */,
+				1800B43529321BC30026690A /* CommentViewModel.swift in Sources */,
 				1877C705292F73E600706CBA /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
